@@ -23,7 +23,7 @@
                 <li><a href="https://breakfastburger.github.io/Credits">CREDITS </a></li>
                 <li><a href="https://breakfastburger.github.io/Games/Unity">UNITY </a></li>
             </ul>
-           <button type="button" id="btn"><i class="fas fa-play"></i>PLAY NOW</button>
+           <button type="button" id="btn"><i class="fas fa-play"></i>Press "`" to go to classroom</button>
 
 <script>
   // Get the button element
@@ -65,7 +65,7 @@
     </div>
 
     <div class="logo-section">
-        <i class="fas fa-gamepad"></i>
+       <img src="/images/burger.png" width="50" height="50">
         <h1>Breakfast Burger Games</h1>
     </div>
     
@@ -74,7 +74,13 @@
             <h1>RANDOM WEBSTES</h1>
             <br>
             <div class="section-1-img">
-                <a href="#"><div class="img img-1"></div></a>
+               <img id="myImg" src="the image source" style="transition: transform 1s">
+<style>
+#myImg:hover {
+  transform: scale(1.25);
+}
+</style>
+<div class="img img-1"></div>
                 <a href="#"><div class="img img-2"></div></a>
                 <a href="#"><div class="img img-3"></div></a>
                 <a href="#"><div class="img img-4"></div></a>
@@ -111,7 +117,7 @@
         <h1>Games You'll Like</h1>
         <div class="players">
             <div class="p-image p-image-1"></div>
-            <span>Vaklish</span>
+            <span>EaglerCraft</span>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -123,7 +129,7 @@
         <!-- Player 2 -->
         <div class="players">
             <div class="p-image p-image-2"></div>
-            <span>Lontona</span>
+            <span>Flappy Bird</span>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -135,7 +141,7 @@
              <!-- Player 3 -->
         <div class="players">
             <div class="p-image p-image-3"></div>
-            <span>Vickish</span>
+            <span>Subway Surfers</span>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -147,7 +153,7 @@
              <!-- Player 4 -->
         <div class="players">
             <div class="p-image p-image-4"></div>
-            <span>Pakito</span>
+            <span>SM64</span>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -222,5 +228,23 @@
     <div class="footer-bottom">
         <p>Copyright &copy; All Right Reserved | Designed <span>By Almarex</span> 2021</p>
     </div>
+    <body>
+<script>
+document.addEventListener("keydown", function(event) {
+  if (event.code === "Backquote") {
+    window.location.href = "https://classroom.google.com";
+  }
+});
+</script>
+</body>
+<img id="myImg" src="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico" style="transition: transform 3s">
+<style>
+#myImg:hover {
+  transform: scale(1.20);
+}
+</style>
+
+
+
 </body>
 </html>
