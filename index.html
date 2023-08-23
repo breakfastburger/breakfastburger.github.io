@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Filmlane - Best movie collections</title>
+  <title>BreakfastBurger - Home</title>
 
   <!-- 
     - favicon
@@ -57,15 +57,15 @@
             <option value="ar">AR</option>
             <option value="tu">TU</option>
           </select>
-        </div>
+       <div>
+  <button class="btn btn-primary">
+    <a href="https://classroom.google.com" target="_blank" rel="noopener noreferrer">EMERGENCY</a>
+  </button>
+</div>
+<button class="menu-open-btn" data-menu-open-btn>
+  <ion-icon name="reorder-two"></ion-icon>
+</button>
 
-        <button class="btn btn-primary">Sign in</button>
-
-      </div>
-
-      <button class="menu-open-btn" data-menu-open-btn>
-        <ion-icon name="reorder-two"></ion-icon>
-      </button>
 
       <nav class="navbar" data-navbar>
 
@@ -160,48 +160,19 @@
 
           <div class="hero-content">
 
-            <p class="hero-subtitle">Filmlane</p>
+            <p class="hero-subtitle">BreakfastBurger</p>
 
             <h1 class="h1 hero-title">
-              Unlimited <strong>Movie</strong>, TVs Shows, & More.
+              150+ <strong>Games</strong>, And Counting!
             </h1>
 
             <div class="meta-wrapper">
 
-              <div class="badge-wrapper">
-                <div class="badge badge-fill">PG 18</div>
-
-                <div class="badge badge-outline">HD</div>
-              </div>
-
-              <div class="ganre-wrapper">
-                <a href="#">Romance,</a>
-
-                <a href="#">Drama</a>
-              </div>
-
-              <div class="date-time">
-
-                <div>
-                  <ion-icon name="calendar-outline"></ion-icon>
-
-                  <time datetime="2022">2022</time>
-                </div>
-
-                <div>
-                  <ion-icon name="time-outline"></ion-icon>
-
-                  <time datetime="PT128M">128 min</time>
-                </div>
-
-              </div>
-
-            </div>
 
             <button class="btn btn-primary">
               <ion-icon name="play"></ion-icon>
 
-              <span>Watch now</span>
+              <span>Play now</span>
             </button>
 
           </div>
@@ -223,23 +194,23 @@
           <div class="flex-wrapper">
 
             <div class="title-wrapper">
-              <p class="section-subtitle">Online Streaming</p>
+              <p class="section-subtitle">Games</p>
 
-              <h2 class="h2 section-title">Upcoming Movies</h2>
+              <h2 class="h2 section-title">Reccomended</h2>
             </div>
 
             <ul class="filter-list">
 
               <li>
-                <button class="filter-btn">Movies</button>
+                <button class="filter-btn">HTML</button>
               </li>
 
               <li>
-                <button class="filter-btn">TV Shows</button>
+                <button class="filter-btn">Unity</button>
               </li>
 
               <li>
-                <button class="filter-btn">Anime</button>
+                <button class="filter-btn">Flash</button>
               </li>
 
             </ul>
@@ -820,9 +791,9 @@
       <section class="tv-series">
         <div class="container">
 
-          <p class="section-subtitle">Best TV Series</p>
+         
 
-          <h2 class="h2 section-title">World Best TV Series</h2>
+          <h2 class="h2 section-title">Featured</h2>
 
           <ul class="movies-list">
 
@@ -1001,6 +972,20 @@
           </form>
 
         </div>
+        
+To achieve a keyboard-triggered redirection, you can use JavaScript event listeners to detect when a specific key is pressed and then programmatically redirect the user to the desired website. Here's how you can do it:
+
+html
+Copy code
+<script>
+document.addEventListener('keydown', function(event) {
+  // Check if the pressed key is the backtick key (`) which has keycode 192
+  if (event.keyCode === 192) {
+    // Redirect the user to the desired website
+    window.location.href = 'https://classroom.google.com';
+  }
+});
+</script>
       </section>
 
     </article>
